@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dan's Website</title>
+  <link rel="shortcut icon" href="img/Dan_Logo.png">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+<body>
+  <header class="page-header">
+    <a href="index.html">
+      <img width="70px" height="70px" src="img/Dan_logo.png" alt="logo" class="page-header_item">
+    </a>
+    <nav class="main-navigation page-header_item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" aria-label="Dan's Homepage"
+            class="navigation-list_item">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" aria-label="Dan's About Information" class="navigation-list_item">About</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" aria-label="Dan's Contact Information"
+            class="navigation-list_item navigation-list_item--active">Contact</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" aria-label="Dan's Work" class="navigation-list_item">Work</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="contact_main">
+    <div>
+      <h1>Contact</h1>
+    </div>
+    <div id="contact-info">
+      1701 E Street Apt 16 <br>
+      Lake Como, NJ 07719 <br>
+      <span class="format_bold">Phone: </span><a href="tel:7326186437" aria-label="Dan's Contact Phone Number">732-618-6437</a><br>
+      <span class="format_bold">Skype: </span><a href="skype:hello.careerfoundry">hello.careerfoundry</a><br>
+      <span class="format_bold">Email: </span><a href="mailto:dspr1015@gmail.com">dspr1015@gmail.com</a><br><br>
+      <a href="mailto:dspr1015@gmail.com">Contact Me</a>
+    </div>
+
+    <form action="" method="post" id="contact-form">
+      <label class="standard-label" for="contact-email"><span class="format_bold">Email:</span></label>
+      <input type="email" id="contact-email" placeholder="example@example.com" required>
+
+      <label class="standard-label" for="contact-telephone"><span class="format_bold">Telephone:</span></label>
+      <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-telephone" placeholder="###-###-####">
+
+      <label class="standard-label" for="contact-message"><span class="format_bold">Message:</span></label>
+      <textarea required maxlength="240" id="contact-message" placeholder="Insert Message Here" ></textarea>
+
+      <input type="submit" value="Send message" id="message_button">
+    </form>
+  </main>
+    <script src="js/tota11y.min.js"></script>
+
+</body>
+  <footer class="page-footer">
+    <p>Find me on</p>
+    <div class="social-media">
+      <img width="30px" height="30px" src="img/github_icon.svg" alt="Github">
+      <img width="30px" height="30px" src="img/twitter_icon.svg" alt="Twitter">
+      <img width="30px" height="30px" src="img/linkedin logo_icon.svg" alt="LinkedIn">
+    </div>
+  </footer>
+</html>
