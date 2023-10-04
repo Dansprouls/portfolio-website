@@ -1,0 +1,15 @@
+Below are the linters used to complete Task 1.10
+
+- HTMLHint for HTML pages
+-I also used W3C Validator for HTML linting
+-Stylelint for CSS
+
+I only used default plugin settings so nothing was changed.
+
+All issues were able to be detected and corrected and were pushed to my GitHub page.
+
+Cross Browser Testing:
+No real noticeable performance issues on any of the main browsers. I didn't see an option for IE Edge, so I tested my website on Chrome, Firefox, and Safari. The only note, and I'm not sure if this had to do with the Smarter BitBar tool itself, the page speed on Firefox seemed a little slow. 
+
+Thanks,
+Dan
